@@ -1,4 +1,4 @@
-```
+
 #include <stdio.h>
 
 int main{}{
@@ -302,4 +302,4 @@ int num_f = 0; //입력숫자
 	} while (turn_p1 < 10 && turn_p2 < 10);
 }
 
-```
+

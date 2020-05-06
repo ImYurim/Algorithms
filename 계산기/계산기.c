@@ -1,4 +1,5 @@
-  int n1 = 0;
+int main() {
+	int n1 = 0;
 	int n2 = 0;
 	int r = 0;
 	char cal;
@@ -59,3 +60,5 @@
 	}
 
 	}
+}
+

@@ -1,8 +1,8 @@
-```
+```c
 #include <stdio.h>
 
 int main{}{
-int num_f = 0; //입력숫자
+	int num_f = 0; //입력숫자
 	int num_s = 0; //입력숫자 총 합
 	int num_r = 0;  //맞추기 전 최근 숫자
 	int rule = 0; //맞추기 전 적용된 규칙

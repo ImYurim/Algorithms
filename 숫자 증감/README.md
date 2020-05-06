@@ -7,25 +7,27 @@
 
 ## while 1개
 ```c
-	
+# include <stdio.h>
+int main() {
 	int f = 0;
 	int d = 0;
 	while (1) {
-	if (d != 1) {
-	f = f + 10;
-	printf("%d\n", f);
-	if (f == 1000) {
-	d = 1;
+		if (d != 1) {
+			f = f + 10;
+			printf("%d\n", f);
+			if (f == 1000) {
+				d = 1;
+			}
+		}
+		else if (d == 1) {
+			f = f - 10;
+			printf("%d\n", f);
+			if (f == 500) {
+				break;
+			}
+		}
 	}
-	}
-	else if (d == 1) {
-	f = f - 10;
-	printf("%d\n", f);
-	if (f == 500) {
-	break;
-	}
-	}
-	}
+}
 ```
 
 
@@ -34,34 +36,37 @@
 
 ## while 2개
 ```c
+# include <stdio.h>
+int main() {
 	int f = 0;
 	int d = 0;
 
 	while (1) {
-	while (1) {
-	if (d == 0) {
-	if (f == 1000) {
-	d = 1;
-	}
-	else {
+		while (1) {
+			if (d == 0) {
+				if (f == 1000) {
+					d = 1;
+				}
+				else {
 
-	f = f + 10;
-	printf("%d\n", f);
-	}
-	}
-	else if (d == 1) {
-	break;
-	}
-	}
+					f = f + 10;
+					printf("%d\n", f);
+				}
+			}
+			else if (d == 1) {
+				break;
+			}
+		}
 
-	if (d == 1) {
-	if (f == 500) {
-	break;
+		if (d == 1) {
+			if (f == 500) {
+				break;
+			}
+			else {
+				f = f - 10;
+				printf("%d\n", f);
+			}
+		}
 	}
-	else {
-	f = f - 10;
-	printf("%d\n", f);
-	}
-	}
-	}
+}
 ```

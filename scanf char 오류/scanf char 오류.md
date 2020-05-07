@@ -43,4 +43,4 @@ printf("\n성별:%s", sex);
 ```
 
 ## 결론
-    scanf에서 %c 입력 받을 시 getchar()를 해주거나 scanf대신 gets를 씀
+    scanf에서 스페이스 포함 입력 받을 시 scanf대신 gets를 씀

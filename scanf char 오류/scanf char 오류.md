@@ -15,7 +15,7 @@
     나이 : 15
     성별 : 남자
 
-
+## 코드
 ```c
 char name[10];
 char address[201];
@@ -41,3 +41,6 @@ printf("\n나이:%d", age);
 printf("\n성별:%s", sex);
 
 ```
+
+## 결론
+    scanf에서 %c 입력 받을 시 getchar()를 해주거나 scanf대신 gets를 씀
